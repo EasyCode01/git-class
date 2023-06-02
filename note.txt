@@ -1,1 +1,22 @@
 
+Git is a distributed version  control system
+
+That basically means 
+
+1. It's a system that records changes to our files over time
+
+2. We can recall specific versions of those files at any given time
+
+3. Many people can easily collaborate on Project and have their own version of project files
+on their computer
+
+Why Use Git   
+e.g clients and developer
+v1, v2
+
+1. store revisions in a project history in just one directory
+2. rewind to any version in the project i wanted to
+3. work on new feature without messing up the main codebase
+4. Easily collaborate with other programmer
+
+Github : sync it up with github
