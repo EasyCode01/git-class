@@ -1,0 +1,42 @@
+MERGING BRANCHES AND DEALING WITH CONFLICT
+
+From What we did in the EXERCISE
+
+we want to assume we have made some changes to those two different BRANCHES
+and we are satisfy with the changes.
+
+MERGING
+We have to be on the branch we want to merge into
+
+git merge branch-name
+
+so we merge both BRANCHES
+
+SOMETIMES WE GOING TO COME ACCROSS CONFLICT
+
+e.g we have a stable version of our code on the master branch
+then we want to add in a css feature.
+
+we make a new branch feature-3 to do that.
+let's switch back to the master.
+So an upstart decides to make an edit on the master branch
+staged and committed it.
+
+Now back to feature-3
+have the changes happy with it, staged, committed and then we decide to merge it.
+
+Now we have a conflict
+cause the upstart has been making changes on the master branch while we've been working on our
+new feature
+
+RESOLVING CONFLICT
+What is it you want?
+
+select which ever one you want to retain
+
+git add .
+git commit 
+exit
+git log --oneline
+and it's done
+
