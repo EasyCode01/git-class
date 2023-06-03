@@ -1,0 +1,48 @@
+GITHUB
+Is a service that let's us set up hosted repositories or online repository 
+ANyone can go online and see the code
+
+e.g imagine we have four developers who wants to work on a project remotely(together)
+
+we setup an online(central) repository which we can all access from our computers
+
+so what we can do is to clone this repository into our own computer, and begin to work on
+ it(develop new featrue) locally on our own computer. Which actually is a good way to 
+ collaborate.
+
+so when they are happy with it they push it to the repository and merge it to the master 
+branch, then other people can pull that code to their own local computer to update their own 
+local version so everyone is in sync with the main code base.
+So can all work on our own features in our own time and then push it up to the online code base
+and other developers pull down the code.
+
+ Setup a Github accout
+
+1. When we already have a local repository.
+create a repository on github.
+
+PUSH CODE TO REMOTE REPO
+to push the code up to the remote repository
+
+a. Make sure the branch is clean
+b. git push address branch.
+c. Done.
+
+So Another developer can come to this repo and clone it on their machine locally
+
+NEXT TIME WE WANT TO PUSH
+i. so need to create an alias for our repo
+git remote add origin address
+
+==> then
+git push origin master
+
+2. When we don't have a local repository
+
+a. create the repo
+b. clone the repo : git clone address
+c. cd to the repo
+to push to the online repository
+git remote -v
+git push origin master
+
