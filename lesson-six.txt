@@ -1,0 +1,16 @@
+MAKING COMMITS
+
+git commit -m "descriptive message" 
+
+then we get to see the id of the commit
+
+let's make couple of commit so can see commit history
+.
+.
+.
+
+let's see the commit history
+git log
+
+for the condensed version
+git log --oneline
