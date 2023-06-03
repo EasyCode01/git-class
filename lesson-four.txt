@@ -1,0 +1,15 @@
+Creating a Repository
+
+Create two directories e,g git-one, git-two
+
+1. cd into the directory and initialize a repo
+-- git init
+
+check the hidden repo ==>  ls -a
+
+2. A directory with already existing content
+
+
+
+
+
