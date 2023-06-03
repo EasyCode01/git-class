@@ -1,0 +1,15 @@
+Before we start Using git we have to install it
+git --version
+
+Let's setup couple of option for git: username and email
+So that we start making changes git will want to know who is making that changes
+
+git config --global user.name username
+git config -g user.email gmail
+
+check 
+git config user.name
+
+some command line command
+cd ..
+cd, ls, dir, mkdir, rmdir, echo. > file.ext, code .
