@@ -1,0 +1,22 @@
+COLLABORATING ON GITHUB
+ASSUME THE REMOTE REPO IS WHAT WE'LL ALL BE WORKING WITH 
+
+1. Make sure I'm on the master branch
+2. git pull origin master : it fetches all of the code from the remote and 
+merges it into the master branch and updates it.
+
+3. checkout a branch so you can start working on.
+4. add to the staging area, commit 
+5. So before we merge to the master branch
+6. we push the branch: git push origin branch name
+7. Go to the online repository : compare and pull request
+8. create a pull request: and other reviews would see it
+9. if we are all happy we can merge the request
+10. let's say you want to add new feature
+11. You must first of all make a pull request 
+12. checkout master and make a pull request
+13. checkout the new branch add the feature
+14. stage commit.
+15. Push the branch to remote repo
+16. compare and pull
+17. merge the pull request 
