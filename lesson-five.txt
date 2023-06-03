@@ -1,0 +1,20 @@
+STAGING FILES
+let's create an HTML and JS FILES
+
+green file -   modified - unsatged
+
+git status ---  files we have changed and stage
+
+ADD TO STAGING AREA
+git add index.html 
+
+CHECK THE STATUS
+git status  (now it is green)
+
+REMOVE FROM STAGING AREA 
+git rm --cached index.html
+git restore --staged index.html
+
+ADD MANY FILES TO STAGING AREA 
+git add ., git add --all/git add -A
+
