@@ -1,0 +1,24 @@
+GIT MECHANICS
+
+1. A repository(repo) a container for your project you want to track with git
+any time we make changes git will recognize it and track things for us
+
+
+2. commits:
+commits are save points
+e.g project level at one time. e.g header, main, footer, js etc.
+5 different commits.
+And we can go back to any of this save points.
+
+3. Stages
+Modified - when we make changes on a file for example they go to the modified stage but they 
+are not ready for committing
+
+Staging area - if we decide we want to, we can add them to the staging area, we add any changed files
+to the staging area that you want to commit 
+
+commit - Any files in the staging area are added to the commit when we make one
+
+This is how git works
+
+Soon we'll start making branches
