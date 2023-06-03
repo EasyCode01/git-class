@@ -1,0 +1,41 @@
+UNDOING THINGS
+
+checkout commit
+revert commit
+reset commit
+
+checkout commit: to see what the code looks like at a particular point (readonly)
+
+revert commit: more like overriding not necessarily deleteing the commit history
+
+reset commit: will permanently delete the commit and your code will go back to the way it was
+at that particular commit history.  
+
+CHECKOUT commit
+git checkout af64hd63
+
+git checkout master
+
+REVERT commit
+git revert af4h463
+
+scary screen
+you can leave the commit like that or rename the commit
+
+so basically this commit has undone everything we did in that commit
+
+RESET commit
+git reset afehj3u3
+
+reset a commit to a particular commit
+
+if we check the commit histroy(git log --oneline we see that we are now on that commit it self)
+but the changes we have made so far is still hanging around in the editor.
+May be if we change our mind and put all of this in one single commit.
+or rewind in time and not preserve this changes..
+
+git reset afehj3u3 --hard 
+then those changes will be gone
+
+
+
