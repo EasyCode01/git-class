@@ -1,0 +1,43 @@
+BRANCHES
+
+so far we have been working on one branch
+so when we create a repo we are automatically creating the master branch
+
+So the whole idea of having a branch is to keep a stable version of our code
+
+and if we want to add new feature instead of starting out on the one that is already stable
+you can create another branch, do whatever thing we want to do and when we are sure we like 
+it we can then merge it with the stable version of our code.
+
+CREATING A NEW BRANCH
+git branch feature-1
+
+CHECK ALL BRANCHES
+git branch/ git branch -a
+
+SWITCH TO ANOTHER BRANCH
+git checkout feature-1
+
+TO SOME RANDOM STUFF ON THE BRANCH
+add to the staging area
+make a commit
+
+SWITCH BACK TO THE MASTER BRANCH
+While we are out of the master branch, we were not changing anything on the master branch
+
+WHEN THINGS GO WRONG ON THE BRANCH
+switch to the master branch
+ git branch -D feature-1 / lowercase d when we have merged the branch
+
+CHECK BRANCH
+git branch --- it should be gone
+
+QUICK WAY TO CREATE AND SWITCH BRANCH
+git checkout -b feature-2
+
+
+EXERCISE 
+1. CREATE TWO SEPARATE BRANCH TO SIMULATE TWO PEOPLE WORKING ON DIFFERENT BRANCH
+ADD SOME FILES, STAGE AND COMMIT THEM
+
+None of them will affect the master branch
